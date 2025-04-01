@@ -168,6 +168,11 @@ When printing a report or label against a [PurchaseOrder](../order/purchase_orde
 | order.target_date | The given target date |
 | order.issue_date | The date then the order was issued |
 | order.complete_date | The date then the order was received and completed |
+| order.supplier_reference | The supplier reference string |
+| order.is_overdue | True or False depending on status |
+| order.status | Order status as text string (Pending, Placed, ... |
+| order.total_price | The total purchase price |
+| order.project_code | The project code if entered |
 
 ### Stock Item
 
